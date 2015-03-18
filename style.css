@@ -1,0 +1,119 @@
+/* My Style file */
+
+body {
+    margin:0;
+    background-color:#B6AFA9;
+    padding-bottom:10px;
+}
+
+div#mainPage {
+    width: 800px;
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+    background-color:white;
+    padding-bottom:10px;
+}
+
+div#header {
+    text-align:left;
+    height:75px;
+    background-color:#9C0000;
+}
+
+div#header img {
+    vertical-align:middle
+}
+
+div#header span{
+    padding-left:20px;
+    color: white;
+    font-size:x-large;
+    font-weight:bold;
+    vertical-align:middle;
+}
+
+div#header div#search {
+    float:right;
+    font-size:small;
+    vertical-align:middle;
+    margin-top:24.5px;
+    margin-right:10px;
+
+    /*header is 75px in height. 
+     *The search div is 26 px in height.
+     *The exact center of the header is 75/2 or 37.5 px.
+     *so from the top is 37.5 - 13 = 24.5
+     */
+}
+
+div#header div#search img {
+    border:inset 2px #B6AFA9;
+    vertical-align:middle;
+    background-color:white;
+    padding:3px;
+    border-right:none;
+}
+
+div#header div#search input {
+    height: 26px;
+    vertical-align:middle;
+    border:inset 2px #B6AFA9;
+    border-left:none;
+}
+
+div#nav {
+    text-align:left;
+}
+
+div#nav ul {
+    margin:0;
+    padding:0;
+    font-size:large;
+    font-weight:bold;
+    float:left;
+    width:100%;
+    border-bottom:solid 2px #9C0000;
+}
+
+div#nav ul li {
+    display:block;
+    float:left;
+}
+
+div#nav ul li a {
+    text-decoration:none;
+    color: black;
+    padding:10px;
+    padding-right:20px;
+    padding-left:20px;
+    float:left;
+}
+
+div#nav ul li a:hover {
+    background-color: #333333;
+    color:white;
+}
+
+div#pageContent {
+    text-align:left;
+    margin:10px;
+}
+
+div#pageContent h1 {
+    font-size:25px;
+    margin:0;
+}
+
+div#pageContent dl#contactInfo dt {
+    font-size:20px;
+}
+
+div#pageContent dl#contactInfo dd {
+    font-size:18px;
+}
+
+div#pageContent div#map {
+    margin-left:70px;
+}
+

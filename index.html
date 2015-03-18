@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" href="http://www.google.com/cse/style/look/default.css" type="text/css" />
+
+        <script type="text/javascript">
+            function clearText(field) {
+                if (field.defaultValue == field.value) field.value = '';
+                else if (field.value == '') field.value = field.defaultValue;
+            }
+        </script>
+        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+        <script type="text/javascript"> 
+          google.load('search', '1', {language : 'en'});
+          google.setOnLoadCallback(function() {
+            var customSearchControl = new google.search.CustomSearchControl('001131352800255480898:0mtrhm8jkce');
+            customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+            var options = new google.search.DrawOptions();
+            options.setAutoComplete(true);
+            options.enableSearchboxOnly("searchResults.html");    
+            customSearchControl.draw('cse-search-form', options);
+          }, true);
+        </script>
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-36360526-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+             var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+             ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+             })();
+        </script>
+
+        <style type="text/css">
+          input.gsc-input {
+            border-color: #BCCDF0;
+          }
+          input.gsc-search-button {
+            border-color: #666666;
+            background-color: #CECECE;
+          }
+        </style>
+    </head>
+
+    <body>
+        <div id="mainPage">
+            <div id="header">
+                <span style="line-height:75px">Jonathan Ito</span>
+                <div id="cse-search-form" style="float:right;margin-top:24.5px;margin-right:10px;width:250px;">Loading</div>
+            </div>
+            <div id="nav">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+            </div>
+            <div id="pageContent">
+
+            <h1>About Jonathan</h1>
+            <div style="height:250px">
+                <img src="ito.jpg" style="float:left;margin-right:20px;margin-bottom:10px"/>
+                <p>
+                I am a computer scientist with interdisciplinary research interests in human judgment and decision making, cognitive science, psychology, cognitive modeling, and machine learning. 
+In particular, my research interests revolve around developing accurate computational models of the human decision process.
+                </p>
+
+                <p> In July of 2013 I accepted a position at <a href="http://www.google.com/about/company/">Google</a> and am currently based in their <a href="http://www.google.com/about/locations/los-angeles/">Los Angeles office</a>.
+                </p>
+
+                <p> 
+                I graduated in 2013 with a PhD in <a href="http://cs.usc.edu">Computer Science</a> from the <a href="http://usc.edu">University of Southern California</a> under the advisement of <a href="http://ict.usc.edu/~marsella">Dr. Stacy Marsella</a> at the <a href="http://ict.usc.edu">Institue for Creative Science</a>. My PhD thesis was titled: <em>Context Dependent Utility: An Appraisal Based Approach for Modeling Context, Framing, and Decisions</em>.
+                </p>
+
+            </div>
+                            
+            </div>
+
+
+        </div>
+    </body>
+</html>
