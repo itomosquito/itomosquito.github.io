@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me on My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://jonathanito.info/</link>
     <description>Recent content in About Me on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://jonathanito.info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publications</title>
-      <link>http://example.org/publications/</link>
+      <link>https://jonathanito.info/publications/</link>
       <pubDate>Fri, 01 Jan 2021 21:14:29 -0800</pubDate>
       
-      <guid>http://example.org/publications/</guid>
+      <guid>https://jonathanito.info/publications/</guid>
       <description>1.   Jonathan Ito and Stacy Marsella. Context dependent utility: modeling decision behavior across contexts. In Proceedings of 35th Annual Conference of the Cognitive Science Society (to appear), 2013. [&amp;nbsp;bib&amp;nbsp;| .pdf&amp;nbsp;] One significant challenge in creating accurate models of human decision behavior is accounting for the effect of context. Research shows that seemingly minor changes in the presentation of a decision can lead to drastic shifts in behavior; phenomena collectively referred to as framing effects.</description>
     </item>
     
